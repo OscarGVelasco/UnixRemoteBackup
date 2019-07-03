@@ -5,7 +5,6 @@ El Script también crea un log en la propia carpeta de copia con información de
 **Nota: Es recomendable probar en local antes de ponerlo en el Crontab para ver que las rutas de los directorios son correctos. Cualquier duda me comentais.
 Os dejo también por aquí la descripción del script:
 
-#!/bin/bash
 # backup.sh a script to back-copy files to a mounted remote directory
 # Usage - backup.sh machine_name mount_directory local_directory
 #                  - 1) machine_name is the name of your machine-or-user on box2
@@ -24,8 +23,9 @@ Os dejo también por aquí la descripción del script:
 # **Start the service
 # sudo service portmap start
 #
-# 1.3 Version March 2019 - Oscar G. Velasco - Cic Lab-19
-#	*added umount error code checking
+# 1.4 Version July 2019 - Oscar G. Velasco - Cic Lab-19
+#     * Added rsync command for copying instead of cp
+#   - 1.3 Version March 2019 - Oscar G. Velasco - Cic Lab-19
+#	    *added umount error code checking
 # 	- 1.2 Version July 2018 - Oscar G. Velasco - Cic Lab-19
-
 
