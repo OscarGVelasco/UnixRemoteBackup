@@ -25,6 +25,8 @@ sudo apt-get install nfs-common
 **Start the service
 sudo service portmap start
 
-1.3 Version March 2019 - Oscar G. Velasco - Cic Lab-19
-  *added umount error code checking
+1.4 Version July 2019 - Oscar G. Velasco - Cic Lab-19
+    * Added rsync command for copying instead of cp
+  - 1.3 Version March 2019 - Oscar G. Velasco - Cic Lab-19
+    *added umount error code checking
   - 1.2 Version July 2018 - Oscar G. Velasco - Cic Lab-19
